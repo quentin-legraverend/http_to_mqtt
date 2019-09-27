@@ -3,13 +3,16 @@
 Simple HTTP "API" to MQTT server. Based on [jpowcode article and code](http://jpowcode.com/http_to_mqtt.html).
 
 Usage example:
-- You want to send message: `d` in topic: `office/blinds`. Just do `http://127.0.0.1:5000/mqtt?topic=office/blinds&message=d` in your favorite web browser and you are done.
+- You want to send message: `d` in topic: `office/blinds`. Just do
+```
+http://127.0.0.1:5000/mqtt?topic=office/blinds&message=d
+```
 
 1. Run server locally:
 ```
-1. git clone
-2. pip install -r requirements.txt
-3. python app.py
+git clone
+pip install -r requirements.txt
+python app.py
 ```
 for a more "cleaner" way you would use virtualenv for Python.
 
