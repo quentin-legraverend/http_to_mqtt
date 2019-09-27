@@ -2,8 +2,7 @@
 
 Simple HTTP "API" to MQTT server. Based on [jpowcode article and code](http://jpowcode.com/http_to_mqtt.html).
 
-Usage example:
-- You want to send message: `d` in topic: `office/blinds`. Just do
+To send message: `d` in topic: `office/blinds`:
 ```
 http://127.0.0.1:5000/mqtt?topic=office/blinds&message=d
 ```
