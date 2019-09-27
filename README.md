@@ -1,8 +1,8 @@
 # http_to_mqtt
 
-Simple HTTP "API" to MQTT server. Based on [jpowcode article and code](http://jpowcode.com/http_to_mqtt.html).
+Simple API for HTTP to MQTT. Based on [jpowcode article and code](http://jpowcode.com/http_to_mqtt.html)(link seems down now).
 
-To send message: `d` in topic: `office/blinds`:
+To send message `d` in topic `office/blinds`:
 ```
 http://127.0.0.1:5000/mqtt?topic=office/blinds&message=d
 ```
