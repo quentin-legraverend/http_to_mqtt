@@ -1,8 +1,7 @@
 FROM python:alpine
 
 WORKDIR /app
-COPY api.py .
-COPY requirements.txt .
+COPY . .
 
 RUN pip install -r requirements.txt
 
